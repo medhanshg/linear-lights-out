@@ -1,0 +1,45 @@
+#pname {
+  margin-bottom: 7.5px;
+}
+
+#nlights {
+  margin-bottom: 7.5px;
+}
+
+#off_lights {
+  margin-bottom: 7.5px;
+}
+
+button.off {
+  background-color: yellow;
+  color: black;
+  font-size: 20px;
+  padding: 10px 15px;
+}
+
+button.on {
+  background-color: black;
+  color: yellow;
+  font-size: 20px;
+  padding: 10px 15px;
+}
+
+body {
+  background-color: lightblue;
+}
+
+.game_board {
+  display: flex;
+  flex-direction: row;
+}
+
+.game_board form {
+  margin-right: 10px;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding-left: 5px;
+  text-align: left;
+}

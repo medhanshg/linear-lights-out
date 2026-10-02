@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Linear Lights Out Game</h1>
+
+    <form action="/game.html" method="POST">
+      <label for="player_name">Player Name</label>
+      <input type="text" name="player_name" id="pname" required />
+
+      <br />
+
+      <label for="number_of_lights">Number of Lights</label>
+      <input type="number" name="number_of_lights" id="nlights" required />
+
+      <br />
+
+      <label for="off_lights">Off Lights</label>
+      <input type="text" id="off_lights" name="off_lights" />
+
+      <br />
+
+      <button type="submit">Start Game</button>
+    </form>
+  </body>
+</html>
